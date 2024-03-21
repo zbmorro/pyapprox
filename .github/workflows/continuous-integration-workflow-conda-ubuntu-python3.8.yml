@@ -1,4 +1,4 @@
-name: Build and Test Using Conda
+name: Debug Python 3.8 and Ubuntu (conda)
 
 on:
   push:

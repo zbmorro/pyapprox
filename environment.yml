@@ -4,7 +4,7 @@ channels:
   - conda-forge
 dependencies:
   - python>3.6
-  - numpy>=1.25
+  - numpy>=1.20
   - matplotlib
   - scipy
   - jupyter
@@ -17,6 +17,7 @@ dependencies:
   - Cython
   - sympy
   - networkx
+  - libopenblas
   - pytorch
   - numba
   # make html in docs folder

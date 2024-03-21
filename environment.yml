@@ -1,7 +1,7 @@
 name: pyapprox-base
 channels:
-  - defaults
   - conda-forge
+  - defaults
 dependencies:
   - python>3.6
   - numpy>=1.20
@@ -17,7 +17,6 @@ dependencies:
   - Cython
   - sympy
   - networkx
-  - libopenblas
   - pytorch
   - numba
   # make html in docs folder

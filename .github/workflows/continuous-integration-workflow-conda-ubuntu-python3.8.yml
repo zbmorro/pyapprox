@@ -31,7 +31,6 @@ jobs:
         with:
           activate-environment: pyapprox-base
           python-version: ${{ matrix.python-version }}
-          # channels: defaults,conda-forge
           channels: defaults
           environment-file: environment.yml
           auto-update-conda: true
